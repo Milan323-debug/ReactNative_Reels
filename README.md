@@ -4,6 +4,22 @@
 An advanced social video feed application built with [Expo](https://expo.dev) and React Native, featuring Firebase authentication, TikTok/Instagram-style reels, animated like functionality, and a modern tab navigation experience.
 
 ---
+## 📱 App Interface Screenshots
+
+<!-- Add your screenshots here. Example: -->
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/a6c29b90-56ef-422d-8e82-1a49a8ba159d" width="200"/><br/><sub>Login Screen</sub></td>
+    <td><img src="https://github.com/user-attachments/assets/e9468a44-df51-4af7-9e5e-857833f5915b" width="200"/><br/><sub>Sign In Screen</sub></td>
+  </tr>
+   <tr>
+    <td><img src="https://github.com/user-attachments/assets/52887c52-a11b-453d-80fb-ef309e78a895" width="200"/><br/><sub>Feeds Screen</sub></td>
+    <td><img src="https://github.com/user-attachments/assets/53d0fb02-0966-42f3-9342-cf591ed612b2" width="200"/><br/><sub>Reels Screen</sub></td>
+    <td><img src="https://github.com/user-attachments/assets/d1d851d4-19e5-4982-bf9f-bb3a66bdb4cc" width="200"/><br/><sub>Profile Screen</sub></td>
+  </tr>
+</table>
+
+---
 
 ## 🚀 Features
 
@@ -47,19 +63,6 @@ You can open the app in:
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go)
-
----
-
-
-## 📱 App Interface Screenshots
-
-<!-- Add your screenshots here. Example: -->
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/badf5ba7-d768-4bbc-a451-35a3a28fc177" width="200"/><br/><sub>Home Screen</sub></td>
-    <td><img src="https://github.com/user-attachments/assets/b0459561-d524-4076-8319-9d88f407a7e6" width="200"/><br/><sub>Settings Screen</sub></td>
-  </tr>
-</table>
 
 ---
 
