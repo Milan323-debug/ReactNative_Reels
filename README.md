@@ -50,6 +50,19 @@ You can open the app in:
 
 ---
 
+
+## 📱 App Interface Screenshots
+
+<!-- Add your screenshots here. Example: -->
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/badf5ba7-d768-4bbc-a451-35a3a28fc177" width="200"/><br/><sub>Home Screen</sub></td>
+    <td><img src="https://github.com/user-attachments/assets/b0459561-d524-4076-8319-9d88f407a7e6" width="200"/><br/><sub>Settings Screen</sub></td>
+  </tr>
+</table>
+
+---
+
 ## 🗂️ Project Structure
 
 - `app/` — Main application code (screens, navigation, layouts)
