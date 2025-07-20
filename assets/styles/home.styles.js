@@ -1,0 +1,212 @@
+import { StyleSheet } from "react-native";
+import { COLORS } from "../../constants/colors";
+
+export const homeStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: COLORS.background,
+  },
+  header: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingHorizontal: 20,
+    paddingVertical: 16,
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: "800",
+    color: COLORS.text,
+    letterSpacing: -0.5,
+  },
+  logoutButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: COLORS.card,
+    justifyContent: "center",
+    alignItems: "center",
+    shadowColor: COLORS.shadow,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  statsContainer: {
+    flexDirection: "row",
+    paddingHorizontal: 16,
+    marginTop: 24,
+    gap: 12,
+  },
+  statCard: {
+    flex: 1,
+    backgroundColor: COLORS.card,
+    borderRadius: 16,
+    padding: 16,
+    alignItems: "center",
+    shadowColor: COLORS.shadow,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  statIcon: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    justifyContent: "center",
+    alignItems: "center",
+    marginBottom: 8,
+  },
+  statValue: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: COLORS.text,
+  },
+  recipesSection: {
+    paddingHorizontal: 16,
+    marginTop: 24,
+    paddingBottom: 32,
+  },
+  recipesGrid: {
+    gap: 16,
+  },
+  row: {
+    justifyContent: "space-between",
+  },
+  emptyState: {
+    alignItems: "center",
+    paddingVertical: 64,
+    paddingHorizontal: 32,
+  },
+  emptyIconContainer: {
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    backgroundColor: COLORS.card,
+    justifyContent: "center",
+    alignItems: "center",
+    marginBottom: 24,
+    borderWidth: 2,
+    borderColor: COLORS.border,
+    borderStyle: "dashed",
+  },
+  emptyTitle: {
+    fontSize: 24,
+    fontWeight: "bold",
+    color: COLORS.text,
+    marginBottom: 24,
+  },
+  exploreButton: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: COLORS.primary,
+    paddingHorizontal: 24,
+    paddingVertical: 12,
+    borderRadius: 24,
+    gap: 8,
+  },
+  exploreButtonText: {
+    fontSize: 16,
+    fontWeight: "600",
+    color: COLORS.white,
+  },
+  // Add missing styles used in HomeScreen
+  scrollContent: {
+    paddingBottom: 24,
+  },
+  welcomeSection: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    gap: 8,
+    marginTop: 16,
+    marginBottom: 16,
+  },
+  featuredSection: {
+    marginBottom: 24,
+  },
+  featuredCard: {
+    borderRadius: 16,
+    overflow: "hidden",
+    backgroundColor: COLORS.card,
+    elevation: 3,
+  },
+  featuredImageContainer: {
+    width: "100%",
+    aspectRatio: 16 / 9,
+    position: "relative",
+  },
+  featuredImage: {
+    width: "100%",
+    height: 180,
+    borderTopLeftRadius: 16,
+    borderTopRightRadius: 16,
+  },
+  featuredOverlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(0,0,0,0.3)",
+    justifyContent: "flex-end",
+  },
+  featuredBadge: {
+    position: "absolute",
+    top: 12,
+    left: 12,
+    backgroundColor: COLORS.primary,
+    borderRadius: 8,
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+  },
+  featuredBadgeText: {
+    color: COLORS.white,
+    fontWeight: "bold",
+    fontSize: 12,
+  },
+  featuredContent: {
+    padding: 16,
+  },
+  featuredTitle: {
+    color: COLORS.white,
+    fontSize: 20,
+    fontWeight: "bold",
+    marginBottom: 8,
+  },
+  featuredMeta: {
+    flexDirection: "row",
+    gap: 12,
+  },
+  metaItem: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 4,
+    marginRight: 12,
+  },
+  metaText: {
+    color: COLORS.white,
+    fontSize: 12,
+    marginLeft: 4,
+  },
+  sectionHeader: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginBottom: 8,
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: COLORS.text,
+  },
+  emptyDescription: {
+    color: COLORS.textLight,
+    fontSize: 14,
+    marginTop: 8,
+    textAlign: "center",
+  },
+});
